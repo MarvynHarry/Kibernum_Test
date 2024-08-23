@@ -18,6 +18,7 @@ These applications work together to provide a full-stack solution for managing c
   - [Running Individually](#running-individually)
 - [Environment Configuration](#environment-configuration)
 - [Technologies Used](#technologies-used)
+- [Explanation](#explanation)
 
 ## Project Structure
 
@@ -119,12 +120,3 @@ The frontend will be accessible at http://localhost:80.
 5. **Environment Configuration:** Information on configuring the environment for both the backend and frontend is provided. This includes setting up the API URL and other configurations.
 6. **Technologies Used:** A section listing the main technologies used in both the backend and frontend applications, as well as Docker for containerization.
 7. **License:** A placeholder for the license, assuming the project is open source and licensed under MIT. You can change this based on your project's actual license.
-
-This `README.md` should provide all the necessary information for someone to understand, set up, and run your project. If you need further customization or additions, feel free to ask!
-
-
-
-
-
-
-
