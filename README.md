@@ -37,8 +37,7 @@ project-root/
 │   ├── angular.json       # Angular CLI configuration
 │   └── ...                # Other frontend files
 └── docker-compose.yml     # Docker Compose configuration for running both apps
-
-
+```
 
 ## Prerequisites
 
