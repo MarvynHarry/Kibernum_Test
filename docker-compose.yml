@@ -1,0 +1,16 @@
+﻿version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./Kibernum_Back
+    ports:
+      - "5000:5000"  # Map the backend port
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Production"
+
+  frontend:
+    build:
+      context: ./Kibernum_Front
+    ports:
+      - "80:80"  # Map the frontend port

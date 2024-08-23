@@ -1,0 +1,55 @@
+/* Style the toolbar */
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Spacer to push the logout button to the right */
+  .spacer {
+    flex: 1 1 auto;
+  }
+  
+  /* Center the table container */
+  .table-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  table {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px 0;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  th.mat-header-cell {
+    background-color: #3f51b5;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  td.mat-cell {
+    text-align: center;
+    padding: 12px;
+  }
+  
+  button.mat-icon-button {
+    margin: 0 5px;
+  }
+  
+  .add-button-container {
+    margin-top: 20px;
+  }
+  
+  .add-button-container button {
+    font-size: 16px;
+  }
+  

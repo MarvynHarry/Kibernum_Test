@@ -1,0 +1,6 @@
+@Kibernum_Back_HostAddress = http://localhost:5280
+
+GET {{Kibernum_Back_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
