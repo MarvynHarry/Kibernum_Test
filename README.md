@@ -23,19 +23,21 @@ These applications work together to provide a full-stack solution for managing c
 
 The repository is structured as follows:
 
+```plaintext
 project-root/
-├── Kibernum_Back/ # .NET Core API backend
-│ ├── Controllers/ # API Controllers
-│ ├── Models/ # Data Models
-│ ├── Services/ # Business Logic Services
-│ ├── appsettings.json # Configuration
-│ └── ... # Other backend files
-├── Kibernum_Front/ # Angular frontend application
-│ ├── src/ # Angular source code
-│ ├── dist/ # Build output
-│ ├── angular.json # Angular CLI configuration
-│ └── ... # Other frontend files
-└── docker-compose.yml # Docker Compose configuration for running both apps
+├── Kibernum_Back/         # .NET Core API backend
+│   ├── Controllers/       # API Controllers
+│   ├── Models/            # Data Models
+│   ├── Services/          # Business Logic Services
+│   ├── appsettings.json   # Configuration
+│   └── ...                # Other backend files
+├── Kibernum_Front/        # Angular frontend application
+│   ├── src/               # Angular source code
+│   ├── dist/              # Build output
+│   ├── angular.json       # Angular CLI configuration
+│   └── ...                # Other frontend files
+└── docker-compose.yml     # Docker Compose configuration for running both apps
+
 
 
 ## Prerequisites
